@@ -4,7 +4,6 @@ A python file that calls qwen-omni api for multimedia in/output. Now only images
 
 *No compatibility tests run. If you encounter any compatibility issues, solve it yourself :)
 
-
 ## Usage
 
 - Download `qwen.py`
@@ -25,3 +24,9 @@ pip install openai numpy soundfile pyaudio keyboard pyautogui
 /help - Show this help message
 /exit - Exit the program
 ```
+
+## p.s.
+There is limited Chinese prompt which may wrongly display under non-utf-8 systems. You may modify the prompts so they would best suit your work.
+
+## p.p.s
+This is a sample program that I'm testing if qwen-omni suits my need on a voice assistant. The answer is apparently yes. The running cost is low and little compute it requires to run the code, furthermore, the answer is amazing given the params. I would be working on it and implement it to a voice assistant someday. A smarter Siri!(?
